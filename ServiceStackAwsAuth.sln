@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthConsole", "AuthConsole\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStackAwsDynamoAuth", "ServiceStackAwsDynamoAuth\ServiceStackAwsDynamoAuth.csproj", "{86E4BDE8-E4BB-4ABD-A1CD-15D4A8290DF6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{26424EF4-91F1-45D3-9CB0-EB854F76E157}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +25,7 @@ Global
 		{86E4BDE8-E4BB-4ABD-A1CD-15D4A8290DF6}.Debug|x86.Build.0 = Debug|Any CPU
 		{86E4BDE8-E4BB-4ABD-A1CD-15D4A8290DF6}.Release|x86.ActiveCfg = Release|Any CPU
 		{86E4BDE8-E4BB-4ABD-A1CD-15D4A8290DF6}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
